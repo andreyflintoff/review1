@@ -1,0 +1,26 @@
+.button_common {
+    background-color: #2E6E3E; /* Dark green button */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 22px;
+    border-radius: 15px;
+    margin: 1rem;
+    width: 90%;
+    cursor: pointer;
+}
+
+.button_common:hover {
+    background-color: #145627; /* Adjusted hover color for better contrast */
+}
+
+.error {
+    color: #ff0000; /* Red text color */
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    background-color: #ffe6e6; /* Light red background */
+}

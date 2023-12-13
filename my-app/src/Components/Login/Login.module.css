@@ -1,0 +1,61 @@
+.login {
+    width: 300px;
+    margin: auto; /* Center the form */
+    background: beige; /* Midnight blue background */
+    border: 8px solid #afafade4; /* Darker blue solid border */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+    color: #292626;
+}
+
+.login > form input {
+    border-radius: 8px;
+    border: 2px solid #fff;
+    outline: none;
+    color: #121111;
+    margin: 10px 0;
+    width: 80%;
+    padding: 12px;
+    font-size: 14px;
+    background-color: #fff; /* White background for better contrast */
+}
+
+.login > form input:hover {
+    border-color: #2C3E50;
+}
+
+.login > form button {
+    background-color: #e6e0df; /* Red button */
+    color: #0c0b0b;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login > form button:hover {
+    background-color: #afafade4; /* Darker red on hover */
+}
+
+/* Registration Form Styles */
+.register {
+    width: 300px;
+    margin: auto; /* Center the form */
+    background: #3498db; /* Blue background */
+    border: 2px solid #2980b9; /* Darker blue solid border */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: right;
+    color: #fff;
+}

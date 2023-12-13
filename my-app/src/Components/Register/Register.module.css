@@ -1,0 +1,45 @@
+.register {
+    width: 400px;
+    background: #fcf7f1; /* Soft cream background */
+    border: 8px solid #afafade4; /* Light gray border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333; /* Darker text for readability */
+  }
+  
+  .register > form input {
+    border-radius: 6px;
+    border: 1px solid #ddd; /* Light gray border */
+    outline: none;
+    color: #333; /* Darker text for readability */
+    margin: 2% 0;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+  }
+  
+  .register > form input:focus {
+    border-color: #51a0c9; /* Pale blue on focus */
+  }
+  
+  .register > form button {
+    background-color: #51a0c9; /* Pale blue button */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .register > form button:hover {
+    background-color: #3fa9e2; /* Slightly darker blue on hover */
+  }
+  
